@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Stephania & Yilmar">
+    <meta name="description" content="Acompáñanos a celebrar la boda de Stephania Manrique Sánchez y Yilmar Esaú Chávez Guerrero el sábado 15 de Mayo de 2027.">
+    <meta name="keywords" content="boda, Stephania y Yilmar, invitacion digital boda, boda cancun, wedding invitation">
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Stephania & Yilmar | ¡Nos Casamos! - 15 de Mayo de 2027">
+    <meta property="og:description" content="Acompáñanos a celebrar nuestra unión matrimonial el sábado 15 de Mayo de 2027 en la Capilla Nuestra Señora de las Nieves y Family Selection Deck.">
+    <meta property="og:image" content="assets/novios/stephania-yilmar-perfil.jpeg">
+    <meta property="og:url" content="https://stephaniayyilmar.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stephania & Yilmar | ¡Nos Casamos!">
+    <meta name="twitter:description" content="Nuestra Boda - Sábado 15 de Mayo de 2027.">
+    <meta name="twitter:image" content="assets/novios/stephania-yilmar-perfil.jpeg">
+
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <title>Stephania & Yilmar | ¡Nos Casamos! - 15 de Mayo de 2027</title>
+
+    <!-- Hojas de estilo del tema -->
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/sass/style.css" rel="stylesheet">
+
+    <!-- Estilos específicos y complementarios del evento -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .navbar-brand-text {
+            font-family: 'monallesia', serif;
+            font-size: 36px;
+            color: #242424;
+            letter-spacing: 1px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .navbar-brand-text span {
+            color: #D4B0A5;
+        }
+
+        /* Sección Cuenta Regresiva */
+        .wpo-wedding-date-dedicated {
+            background: #EDE5DE;
+            padding: 60px 0 70px;
+            border-bottom: 1px solid #ddd2c9;
+        }
+
+        .wpo-wedding-date-dedicated .wedding-date-wrap #clock {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .wpo-wedding-date-dedicated .box {
+            width: 150px;
+            height: 150px;
+            background: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+            border: 2px dashed #D4B0A5;
+        }
+
+        .wpo-wedding-date-dedicated .box .time {
+            font-family: 'monallesia', serif;
+            font-size: 40px;
+            color: #515A44;
+            line-height: 1;
+            font-weight: 700;
+        }
+
+        .wpo-wedding-date-dedicated .box span {
+            display: block;
+            font-size: 14px;
+            color: #777777;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top: 5px;
+        }
+
+        /* Dress Code Cards */
+        .dresscode-card {
+            background: #ffffff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            border: 1px solid #f3ece7;
+        }
+
+        .dresscode-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+        }
+
+        .dresscode-img-holder {
+            position: relative;
+            overflow: hidden;
+            height: 480px;
+            background: #fbf9f8;
+        }
+
+        .dresscode-img-holder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+            transition: transform 0.5s ease;
+        }
+
+        .dresscode-card:hover .dresscode-img-holder img {
+            transform: scale(1.04);
+        }
+
+        .dresscode-zoom-hint {
+            position: absolute;
+            bottom: 12px;
+            right: 12px;
+            background: rgba(36, 36, 36, 0.75);
+            color: #ffffff;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            backdrop-filter: blur(4px);
+        }
+
+        .dresscode-body {
+            padding: 28px 25px;
+            text-align: center;
+        }
+
+        .dresscode-body h3 {
+            font-family: 'monallesia', serif;
+            font-size: 26px;
+            color: #242424;
+            margin-bottom: 8px;
+        }
+
+        .dresscode-body .badge-tag {
+            display: inline-block;
+            background: #f8eee9;
+            color: #9c6c5e;
+            font-size: 13px;
+            padding: 4px 14px;
+            border-radius: 20px;
+            margin-bottom: 14px;
+            font-weight: 600;
+        }
+
+        .dresscode-body p {
+            color: #555555;
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 0;
+            font-weight: 400;
+        }
+
+        /* Aumento de tamaño para couple-text span */
+        .couple-text span,
+        .wpo-couple-section-s3 .couple-item .couple-text span {
+            font-size: 19px !important;
+            font-weight: 600 !important;
+            display: inline-block;
+            letter-spacing: 0.5px;
+            margin-top: 4px;
+        }
+
+        .couple-middle .couple-text span {
+            font-size: 16px !important;
+            letter-spacing: 2px !important;
+        }
+
+        /* Diseño Destacado para Restricción de Código de Vestimenta */
+        .dresscode-alert {
+            background: linear-gradient(145deg, #ffffff 0%, #fff6f3 100%);
+            border: 2px solid #E8A598;
+            border-left: 8px solid #C94A29;
+            border-radius: 18px;
+            padding: 35px 35px 30px;
+            text-align: center;
+            margin-top: 45px;
+            box-shadow: 0 16px 40px rgba(201, 74, 41, 0.12);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .dresscode-alert::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 140px;
+            height: 140px;
+            background: radial-gradient(circle, rgba(232, 165, 152, 0.22) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .dresscode-alert-header {
+            margin-bottom: 18px;
+        }
+
+        .dresscode-alert-header .alert-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #C94A29;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 6px 18px;
+            border-radius: 30px;
+            box-shadow: 0 4px 14px rgba(201, 74, 41, 0.32);
+            margin-bottom: 12px;
+        }
+
+        .dresscode-alert-header h4 {
+            font-family: 'monallesia', serif;
+            font-size: 28px;
+            color: #242424;
+            margin-bottom: 0;
+            margin-top: 5px;
+        }
+
+        .dresscode-alert-text {
+            color: #555555;
+            font-size: 16px;
+            line-height: 1.7;
+            max-width: 680px;
+            margin: 0 auto 25px;
+        }
+
+        .dresscode-alert-text strong {
+            color: #C94A29;
+            font-weight: 700;
+        }
+
+        .forbidden-colors-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .color-chip {
+            background: #ffffff;
+            border: 1px solid #eddcd6;
+            border-radius: 14px;
+            padding: 16px 22px;
+            min-width: 160px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .color-chip:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 24px rgba(201, 74, 41, 0.15);
+        }
+
+        .color-swatch {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+            font-size: 18px;
+            position: relative;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        .color-swatch.swatch-white {
+            background: #FFFFFF;
+            border: 2px solid #dedede;
+            color: #C94A29;
+        }
+
+        .color-swatch.swatch-beige {
+            background: #EFE6DD;
+            border: 2px solid #decbc0;
+            color: #C94A29;
+        }
+
+        .color-swatch.swatch-green {
+            background: #556B48;
+            border: 2px solid #435539;
+            color: #FFFFFF;
+        }
+
+        .color-chip .color-name {
+            font-weight: 700;
+            color: #242424;
+            font-size: 15px;
+            margin-bottom: 3px;
+        }
+
+        .color-chip .color-sub {
+            font-size: 12px;
+            color: #888888;
+        }
+
+        .dresscode-alert-footer {
+            font-size: 14px;
+            color: #777777;
+            border-top: 1px dashed #e8d5ce;
+            padding-top: 16px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .dresscode-alert-footer i {
+            color: #C94A29;
+            margin-right: 4px;
+        }
+
+        @media (max-width: 767px) {
+            .dresscode-alert {
+                padding: 26px 18px 22px;
+                border-left-width: 6px;
+            }
+            .dresscode-alert-header h4 {
+                font-size: 24px;
+            }
+            .forbidden-colors-grid {
+                gap: 12px;
+            }
+            .color-chip {
+                min-width: 130px;
+                padding: 12px 10px;
+                flex: 1 1 calc(33.333% - 12px);
+            }
+            .color-swatch {
+                width: 38px;
+                height: 38px;
+                font-size: 15px;
+            }
+            .color-chip .color-name {
+                font-size: 13px;
+            }
+            .color-chip .color-sub {
+                font-size: 11px;
+            }
+        }
+
+        /* Tarjetas de Padrinos y Padres */
+        .family-honor-item {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 35px 25px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.04);
+            border: 1px solid #f2ebe6;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .family-honor-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+            border-color: #D4B0A5;
+        }
+
+        .family-honor-icon {
+            width: 70px;
+            height: 70px;
+            background: #EDE5DE;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            border: 1px dashed #D4B0A5;
+        }
+
+        .family-honor-icon img {
+            width: 34px;
+            height: 34px;
+        }
+
+        .family-honor-item .role-badge {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #D4B0A5;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .family-honor-item h3 {
+            font-family: 'monallesia', serif;
+            font-size: 23px;
+            color: #242424;
+            margin-bottom: 8px;
+            font-weight: 400;
+            line-height: 1.3;
+        }
+
+        .family-honor-item .and-symbol {
+            color: #D4B0A5;
+            font-family: 'monallesia', serif;
+            font-size: 20px;
+            display: block;
+            margin: 4px 0;
+        }
+
+        /* Ubicaciones e Itinerario Cards */
+        .venue-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 35px 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            border: 1px solid #f2ece8;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .venue-card:hover {
+            transform: translateY(-5px);
+            border-color: #515A44;
+        }
+
+        .venue-icon {
+            width: 65px;
+            height: 65px;
+            background: #fbf7f4;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 18px;
+            color: #515A44;
+            font-size: 26px;
+        }
+
+        .venue-card h3 {
+            font-family: 'monallesia', serif;
+            font-size: 26px;
+            color: #242424;
+            margin-bottom: 10px;
+        }
+
+        .venue-card .venue-time {
+            display: inline-block;
+            background: #515A44;
+            color: #ffffff;
+            padding: 4px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .venue-card p {
+            color: #666666;
+            font-size: 16px;
+            margin-bottom: 22px;
+        }
+
+        /* Mesa de Regalos */
+        .gift-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 45px 35px;
+            border: 1px solid #f3ece8;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .gift-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+            border-color: #D4B0A5;
+        }
+
+        .gift-icon {
+            width: 75px;
+            height: 75px;
+            background: #EDE5DE;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: #D4B0A5;
+            margin-bottom: 20px;
+        }
+
+        .gift-card h3 {
+            font-family: 'monallesia', serif;
+            font-size: 28px;
+            color: #242424;
+            margin-bottom: 12px;
+        }
+
+        /* Botones del tema (tonalidad más visible derivada de #B5A2BD) */
+        .theme-btn,
+        .theme-btn-s3,
+        .theme-btn-s4 {
+            background-color: #7E578A !important;
+            color: #ffffff !important;
+            border: 1px solid #7E578A !important;
+            box-shadow: 0 4px 16px rgba(126, 87, 138, 0.28);
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .theme-btn:hover,
+        .theme-btn:focus,
+        .theme-btn:active,
+        .theme-btn-s3:hover,
+        .theme-btn-s4:hover {
+            background-color: #684174 !important;
+            color: #ffffff !important;
+            border-color: #684174 !important;
+            box-shadow: 0 6px 20px rgba(104, 65, 116, 0.38);
+            transform: translateY(-2px);
+        }
+
+        .theme-btn::after,
+        .theme-btn-s3::after,
+        .theme-btn-s4::after {
+            border-color: #7E578A !important;
+        }
+
+        .theme-btn:hover::after,
+        .theme-btn-s3:hover::after,
+        .theme-btn-s4:hover::after {
+            border-color: #684174 !important;
+        }
+
+        .back-to-top {
+            border-color: #7E578A !important;
+            color: #7E578A !important;
+        }
+
+        .back-to-top:hover {
+            background-color: #7E578A !important;
+            color: #ffffff !important;
+        }
+
+        /* Botón WhatsApp */
+        .btn-whatsapp {
+            background: #25D366;
+            color: #ffffff !important;
+            border: none;
+            padding: 13px 22px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 18px rgba(37, 211, 102, 0.22);
+            cursor: pointer;
+            text-decoration: none !important;
+        }
+
+        .btn-whatsapp:hover {
+            background: #1EBE5D;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 22px rgba(37, 211, 102, 0.32);
+        }
+
+        .btn-whatsapp i {
+            font-size: 18px;
+        }
+
+        /* Reproductor de Música Flotante (Cristian Castro - Azul) */
+        .music-controller-wrap {
+            position: fixed;
+            bottom: 25px;
+            left: 25px;
+            z-index: 99999;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .music-player-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #D4B0A5;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            outline: none;
+            padding: 0;
+        }
+
+        .music-player-btn:hover {
+            background: #c59f93;
+            transform: scale(1.08);
+        }
+
+        .music-player-btn.is-playing {
+            background: #D4B0A5;
+            animation: musicPulse 2.2s infinite ease-in-out;
+        }
+
+        .music-player-btn.is-playing #music-icon {
+            animation: musicSpin 5s linear infinite;
+        }
+
+        .music-player-btn.is-paused {
+            background: #555555;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            opacity: 0.9;
+        }
+
+        .music-player-btn i {
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        @keyframes musicSpin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes musicPulse {
+            0% { box-shadow: 0 0 0 0 rgba(212, 176, 165, 0.7); }
+            70% { box-shadow: 0 0 0 14px rgba(212, 176, 165, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(212, 176, 165, 0); }
+        }
+
+        .music-player-toast {
+            background: rgba(36, 36, 36, 0.88);
+            color: #ffffff;
+            padding: 7px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-family: 'Jost', sans-serif;
+            letter-spacing: 0.5px;
+            backdrop-filter: blur(6px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            white-space: nowrap;
+            opacity: 1;
+            transition: opacity 0.5s ease, transform 0.5s ease;
+            pointer-events: none;
+        }
+
+        .music-player-toast.fade-out {
+            opacity: 0;
+            transform: translateX(-10px);
+        }
+
+        @media (max-width: 576px) {
+            .music-controller-wrap {
+                bottom: 20px;
+                left: 20px;
+            }
+            .music-player-btn {
+                width: 44px;
+                height: 44px;
+            }
+            .music-player-btn i {
+                font-size: 16px;
+            }
+            .music-player-toast {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrap">
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <div class="loader-circle"></div>
+                    <div class="loader-line-mask">
+                        <div class="loader-line"></div>
+                    </div>
+                    <img src="assets/images/preloader.png" alt="Cargando...">
+                </div>
+            </div>
+        </div>
+        <!-- end preloader -->
+
+        <!-- Start header (Oculto según requerimiento, no eliminado) -->
+        <header id="header" style="display: none;">
+            <div class="wpo-site-header wpo-header-style-2">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-12 text-center py-4">
+                            <div class="navbar-header d-inline-block">
+                                <a class="navbar-brand-text" href="index.html">
+                                    Stephania <span>&amp;</span> Yilmar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- start of hero (Diseño original de hero-text respetado) -->
+        <section class="static-hero-s4">
+            <div class="static-main-box">
+                <div class="container-fluid">
+                    <div class="static-inner-box">
+                        <div class="row align-items-center">
+                            <!-- Columna texto original -->
+                            <div class="col col-xl-5 col-lg-5 col-md-5 col-12">
+                                <div class="hero-text">
+                                    <h2 class="wow fadeInLeftSlow" data-wow-duration="1200ms">Stephania &amp; Yilmar</h2>
+                                    <div class="wow fadeInLeftSlow" data-wow-duration="1400ms">
+                                        <span>¡Nos Casamos!</span>
+                                    </div>
+                                    <p class="wow fadeInLeftSlow" data-wow-duration="1600ms">15 . 05 . 2027</p>
+                                </div>
+                            </div>
+                            <!-- Columna imagen: stephania-yilmar-perfil.jpeg -->
+                            <div class="col col-xl-7 col-lg-7 col-md-7 col-12">
+                                <div class="wpo-static-hero-img">
+                                    <div class="wpo-static-hero-ineer-img">
+                                        <img src="assets/novios/stephania-yilmar-perfil.jpeg" alt="Stephania &amp; Yilmar" style="width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                    <div class="back-flower">
+                                        <img src="assets/images/slider/back-flower.png" alt="" class="wow zoomIn" data-wow-duration="1200ms">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of hero slider -->
+
+        <!-- start cuenta regresiva section -->
+        <section class="wpo-wedding-date-dedicated">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="wpo-section-title" style="margin-bottom: 20px;">
+                            <h4 style="color: #D4B0A5; text-transform: uppercase; letter-spacing: 3px; font-size: 14px; margin-bottom: 5px;">Cuenta Regresiva</h4>
+                            <h2 style="font-family: 'monallesia', serif; font-size: 34px; color: #242424; margin: 0;">Faltan para el gran día:</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="wedding-date-wrap">
+                    <div id="clock"></div>
+                </div>
+            </div>
+        </section>
+        <!-- end cuenta regresiva section -->
+
+        <!-- start wpo-couple-section (Nuestra Historia) -->
+        <section class="wpo-couple-section-s3 section-padding" id="historia">
+            <div class="container-fluid">
+                <div class="row justify-content-center mb-5 text-center">
+                    <div class="col-lg-6">
+                        <div class="wpo-section-title">
+                            <h4 class="poort-text poort-in-right">Nuestra Historia de Amor</h4>
+                            <h2 class="poort-text poort-in-right">Stephania &amp; Yilmar</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row gx-5 align-items-center">
+                    <!-- Columna Izquierda: Momentos -->
+                    <div class="col-lg-4 col-md-6 order-lg-1 order-1">
+                        <div class="couple-left">
+                            <div class="couple-item wow fadeInLeftSlow" data-wow-duration="1200ms">
+                                <div class="couple-img">
+                                    <img src="assets/novios/stephania-yilmar-perfil.jpeg" alt="El día que nos conocimos">
+                                    <div class="l-shape"><img src="assets/images/couple/l-shape-1.png" alt=""></div>
+                                </div>
+                                <div class="couple-text">
+                                    <h2>El inicio del camino</h2>
+                                    <span>Nuestra Historia Comienza</span>
+                                </div>
+                            </div>
+                            <div class="couple-item wow fadeInLeftSlow" data-wow-duration="1400ms">
+                                <div class="couple-img">
+                                    <img src="assets/novios/stephania-yilmar-bn-mirada.jpeg" alt="Complicidad y amor">
+                                    <div class="l-shape"><img src="assets/images/couple/l-shape-2.png" alt=""></div>
+                                </div>
+                                <div class="couple-text">
+                                    <h2>Complicidad &amp; Amor</h2>
+                                    <span>Creciendo Juntos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Central: Novia y Novio -->
+                    <div class="col-lg-4 col-md-12 order-lg-2 order-3">
+                        <div class="couple-middle">
+                            <!-- La Novia -->
+                            <div class="couple-middle-item">
+                                <div class="couple-img" style="border-radius: 50%; overflow: hidden; width: 180px; height: 180px; margin: 0 auto 20px;">
+                                    <img src="assets/novios/stephania-yilmar-frente.jpeg" alt="Stephania Manrique Sánchez" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div class="couple-text">
+                                    <h3>Stephania Manrique Sánchez</h3>
+                                    <span style="color: #D4B0A5; font-weight: 600; text-transform: uppercase; font-size: 16px; letter-spacing: 2px;">La Novia</span>
+                                    <p class="mt-2">Llena de ilusión y dicha por celebrar nuestra unión matrimonial junto a nuestras queridas familias y amigos que hacen nuestra vida más hermosa.</p>
+                                </div>
+                            </div>
+
+                            <div class="couple-middle-love-text">
+                                <h2 class="poort-text poort-in-up">Amor</h2>
+                            </div>
+
+                            <!-- El Novio -->
+                            <div class="couple-middle-item">
+                                <div class="couple-img" style="border-radius: 50%; overflow: hidden; width: 180px; height: 180px; margin: 0 auto 20px;">
+                                    <img src="assets/novios/stephania-yilmar-riendo.jpeg" alt="Yilmar Esaú Chávez Guerrero" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div class="couple-text">
+                                    <h3>Yilmar Esaú Chávez Guerrero</h3>
+                                    <span style="color: #D4B0A5; font-weight: 600; text-transform: uppercase; font-size: 16px; letter-spacing: 2px;">El Novio</span>
+                                    <p class="mt-2">Agradecido con la vida por encontrar a mi compañera perfecta, emocionado de dar el gran paso y celebrar nuestro amor con todos ustedes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Columna Derecha: Momentos -->
+                    <div class="col-lg-4 col-md-6 order-lg-3 order-2">
+                        <div class="couple-right">
+                            <div class="couple-item wow fadeInRightSlow" data-wow-duration="1200ms">
+                                <div class="couple-img">
+                                    <img src="assets/novios/anillo-compromiso.jpeg" alt="¡Dijo que sí!">
+                                    <div class="l-shape"><img src="assets/images/couple/l-shape-3.png" alt=""></div>
+                                </div>
+                                <div class="couple-text">
+                                    <h2>¡Dijo que sí!</h2>
+                                    <span>El Compromiso</span>
+                                </div>
+                            </div>
+                            <div class="couple-item wow fadeInRightSlow" data-wow-duration="1400ms">
+                                <div class="couple-img">
+                                    <img src="assets/novios/stephania-yilmar-baile.jpeg" alt="Nuestra Boda">
+                                    <div class="l-shape"><img src="assets/images/couple/l-shape-4.png" alt=""></div>
+                                </div>
+                                <div class="couple-text">
+                                    <h2>¡Nos Casamos!</h2>
+                                    <span>15 de Mayo de 2027</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end wpo-couple-section -->
+
+        <!-- start of wpo-portfolio-section (Galería de Fotos) -->
+        <section class="wpo-portfolio-section-s3" id="galeria">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="wpo-section-title">
+                            <h4 class="poort-text poort-in-right">Momentos Inolvidables</h4>
+                            <h2 class="poort-text poort-in-right">Nuestra Galería</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="swiper-container swiper-main">
+                            <div class="swiper-wrapper">
+                                <!-- Foto 1: Baile -->
+                                <div class="swiper-slide grid">
+                                    <div class="img-holder wow fadeInUp" data-wow-duration="1400ms">
+                                        <a href="assets/novios/stephania-yilmar-baile.jpeg" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="assets/novios/stephania-yilmar-baile.jpeg" alt="Stephania y Yilmar" class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Foto 2: Frente -->
+                                <div class="swiper-slide grid">
+                                    <div class="img-holder wow fadeInUp" data-wow-duration="1400ms">
+                                        <a href="assets/novios/stephania-yilmar-frente.jpeg" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="assets/novios/stephania-yilmar-frente.jpeg" alt="Stephania y Yilmar juntos" class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Foto 3: Riendo -->
+                                <div class="swiper-slide grid">
+                                    <div class="img-holder wow fadeInUp" data-wow-duration="1400ms">
+                                        <a href="assets/novios/stephania-yilmar-riendo.jpeg" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="assets/novios/stephania-yilmar-riendo.jpeg" alt="Felicidad" class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Foto 4: Mirada -->
+                                <div class="swiper-slide grid">
+                                    <div class="img-holder wow fadeInUp" data-wow-duration="1400ms">
+                                        <a href="assets/novios/stephania-yilmar-bn-mirada.jpeg" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="assets/novios/stephania-yilmar-bn-mirada.jpeg" alt="Miradas de amor" class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Foto 5: Anillo -->
+                                <div class="swiper-slide grid">
+                                    <div class="img-holder wow fadeInUp" data-wow-duration="1400ms">
+                                        <a href="assets/novios/anillo-compromiso.jpeg" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="assets/novios/anillo-compromiso.jpeg" alt="Anillo de compromiso" class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Foto 6: Perfil -->
+                                <div class="swiper-slide grid">
+                                    <div class="img-holder wow fadeInUp" data-wow-duration="1400ms">
+                                        <a href="assets/novios/stephania-yilmar-perfil.jpeg" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="assets/novios/stephania-yilmar-perfil.jpeg" alt="Stephania y Yilmar perfil" class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of wpo-portfolio-section -->
+
+        <!-- start wpo-team-section (Padres y Padrinos) -->
+        <section class="wpo-team-section section-padding" id="corte-honor">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <div class="wpo-section-title">
+                            <h4 class="poort-text poort-in-right">Con la bendición de Dios y de nuestras familias</h4>
+                            <h2 class="poort-text poort-in-right">Padres y Padrinos</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- 1. Padres de la Novia -->
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <div class="family-honor-item wow fadeInUp" data-wow-duration="1200ms">
+                            <div class="family-honor-icon">
+                                <img src="assets/images/icon/1.svg" alt="Padres de la Novia">
+                            </div>
+                            <span class="role-badge">Padres de la Novia</span>
+                            <h3>Beatriz Sánchez</h3>
+                            <span class="and-symbol">&amp;</span>
+                            <h3>César Manrique</h3>
+                        </div>
+                    </div>
+
+                    <!-- 2. Padres del Novio -->
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <div class="family-honor-item wow fadeInUp" data-wow-duration="1400ms">
+                            <div class="family-honor-icon">
+                                <img src="assets/images/icon/2.svg" alt="Padres del Novio">
+                            </div>
+                            <span class="role-badge">Padres del Novio</span>
+                            <h3>Adriana Guerrero</h3>
+                            <span class="and-symbol">&amp;</span>
+                            <h3>Arturo Chávez</h3>
+                        </div>
+                    </div>
+
+                    <!-- 3. Padrinos de Velación -->
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <div class="family-honor-item wow fadeInUp" data-wow-duration="1600ms">
+                            <div class="family-honor-icon">
+                                <img src="assets/images/icon/3.svg" alt="Padrinos de Velación">
+                            </div>
+                            <span class="role-badge">Padrinos de Velación</span>
+                            <h3>Bertha Guerrero</h3>
+                            <span class="and-symbol">&amp;</span>
+                            <h3>Ramón Correa</h3>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end wpo-team-section -->
+
+        <!-- start Código de Vestimenta Section -->
+        <section class="section-padding" id="dresscode" style="background-color: #EDE5DE;">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <div class="wpo-section-title">
+                            <h4 class="poort-text poort-in-right">Código de Vestimenta</h4>
+                            <h2 class="poort-text poort-in-right">Formal Tropical / Elegante Colores Vivos</h2>
+                        </div>
+                        <p style="color: #666; font-size: 16px;">Queremos que luzcas espectacular y fresco para celebrar en el caribe con nosotros.</p>
+                    </div>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <!-- Damas -->
+                    <div class="col-lg-6 col-md-10">
+                        <div class="dresscode-card wow fadeInLeftSlow" data-wow-duration="1200ms">
+                            <div class="dresscode-img-holder">
+                                <a href="assets/novios/dresscode-damas.jpeg" class="fancybox" data-fancybox-group="dresscode" title="Código de Vestimenta Damas - Paleta Bright Bolds">
+                                    <img src="assets/novios/dresscode-damas.jpeg" alt="Código de vestimenta damas">
+                                    <span class="dresscode-zoom-hint"><i class="ti-zoom-in"></i> Ver paleta completa</span>
+                                </a>
+                            </div>
+                            <div class="dresscode-body">
+                                <h3>Damas</h3>
+                                <span class="badge-tag">Vestido Largo • Colores Vivos</span>
+                                <p>Vestido largo en <strong>colores vivos</strong> (paleta <em>Bright Bolds</em>: fucsia, bugambilia, azul cielo/eléctrico, naranja, amarillo, turquesa, lila, morado).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Caballeros -->
+                    <div class="col-lg-6 col-md-10">
+                        <div class="dresscode-card wow fadeInRightSlow" data-wow-duration="1200ms">
+                            <div class="dresscode-img-holder">
+                                <a href="assets/novios/dresscode-caballeros.jpeg" class="fancybox" data-fancybox-group="dresscode" title="Código de Vestimenta Caballeros - Guayabera o traje fresco">
+                                    <img src="assets/novios/dresscode-caballeros.jpeg" alt="Código de vestimenta caballeros">
+                                    <span class="dresscode-zoom-hint"><i class="ti-zoom-in"></i> Ver estilos</span>
+                                </a>
+                            </div>
+                            <div class="dresscode-body">
+                                <h3>Caballeros</h3>
+                                <span class="badge-tag">Guayabera o Traje Ligero</span>
+                                <p>Guayabera (manga larga o corta) o traje ligero/lino en tonos frescos y neutros.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restricción Importante -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="dresscode-alert wow fadeInUp" data-wow-duration="1400ms">
+                            <div class="dresscode-alert-header">
+                                <span class="alert-badge"><i class="fa fa-exclamation-circle"></i> RESTRICCIÓN IMPORTANTE</span>
+                                <h4>Nota Especial de Vestimenta</h4>
+                            </div>
+                            <p class="dresscode-alert-text">
+                                Con el fin de hacer este día aún más mágico y reservar la armonía visual de los novios, les pedimos de la manera más atenta <strong>evitar estrictamente</strong> los siguientes tonos en su vestimenta:
+                            </p>
+                            <div class="forbidden-colors-grid">
+                                <div class="color-chip">
+                                    <span class="color-swatch swatch-white"><i class="fa fa-times"></i></span>
+                                    <span class="color-name">Blanco</span>
+                                    <span class="color-sub">Exclusivo de la Novia</span>
+                                </div>
+                                <div class="color-chip">
+                                    <span class="color-swatch swatch-beige"><i class="fa fa-times"></i></span>
+                                    <span class="color-name">Beige / Crema</span>
+                                    <span class="color-sub">Y tonos marfil o hueso</span>
+                                </div>
+                                <div class="color-chip">
+                                    <span class="color-swatch swatch-green"><i class="fa fa-times"></i></span>
+                                    <span class="color-name">Gama de Verdes</span>
+                                    <span class="color-sub">En cualquier tonalidad</span>
+                                </div>
+                            </div>
+                            <div class="dresscode-alert-footer">
+                                <i class="fa fa-heart"></i> Agradecemos de todo corazón su cariño, comprensión y apoyo para hacer perfecta nuestra boda.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Código de Vestimenta Section -->
+
+        <!-- start wpo-event-section (Itinerario y Ubicaciones) -->
+        <section class="wpo-event-section-s2 section-padding" id="itinerario">
+            <div class="container">
+                <div class="wpo-section-title text-center mb-5">
+                    <h4 class="poort-text poort-in-right">Cuándo &amp; Dónde</h4>
+                    <h2 class="poort-text poort-in-right">Itinerario y Ubicaciones</h2>
+                    <p style="font-size: 18px; color: #515A44; font-weight: 600; margin-top: 10px;">Sábado, 15 de Mayo de 2027</p>
+                </div>
+
+                <!-- Tarjetas de Lugares Principales -->
+                <div class="row justify-content-center mb-0">
+                    <!-- Ceremonia Religiosa -->
+                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="venue-card wow fadeInUp" data-wow-duration="1200ms">
+                            <div class="venue-icon">
+                                <i class="fa fa-bell-o"></i>
+                            </div>
+                            <span class="venue-time">4:00 PM (16:00 hrs)</span>
+                            <h3>Ceremonia Religiosa</h3>
+                            <p><strong>Lugar:</strong> Capilla Nuestra Señora de las Nieves</p>
+                            <a href="https://maps.app.goo.gl/3zSw2B9R9Ukxkj978" target="_blank" rel="noopener noreferrer" class="theme-btn" style="padding: 10px 24px; font-size: 13px;">
+                                <i class="fa fa-map-marker"></i> Ver en Google Maps
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Recepción -->
+                    <div class="col-lg-6 col-md-6 col-12 mb-4">
+                        <div class="venue-card wow fadeInUp" data-wow-duration="1400ms">
+                            <div class="venue-icon">
+                                <i class="fa fa-glass"></i>
+                            </div>
+                            <span class="venue-time">7:00 PM (19:00 hrs)</span>
+                            <h3>Recepción</h3>
+                            <p><strong>Lugar:</strong> Family Selection Deck</p>
+                            <a href="https://maps.app.goo.gl/eeXPLC3fwvgJU8tf8" target="_blank" rel="noopener noreferrer" class="theme-btn" style="padding: 10px 24px; font-size: 13px;">
+                                <i class="fa fa-map-marker"></i> Ver en Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div> <!-- end container -->
+        </section>
+        <!-- end wpo-event-section -->
+
+        <!-- start Mesa de Regalos Section (Exclusivo Liverpool) -->
+        <section class="section-padding" id="regalos" style="background-color: #EDE5DE;">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <div class="wpo-section-title">
+                            <h4 class="poort-text poort-in-right">Mesa de Regalos</h4>
+                            <h2 class="poort-text poort-in-right">Nuestra Sugerencia de Obsequio</h2>
+                        </div>
+                        <p style="color: #666; font-size: 16px;">El regalo más significativo es contar con tu compañía en este día tan anhelado. Si deseas hacernos un obsequio, ponemos a tu disposición nuestra mesa de regalos:</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <!-- Liverpool -->
+                    <div class="col-lg-7 col-md-9 col-12">
+                        <div class="gift-card wow fadeInUp" data-wow-duration="1200ms">
+                            <div class="gift-icon">
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <h3>Liverpool</h3>
+                            <p style="color: #777; margin-bottom: 8px;">Número de evento:</p>
+                            <h4 style="font-family: 'monallesia', serif; font-size: 34px; color: #515A44; letter-spacing: 2px; margin-bottom: 15px;">52012979</h4>
+                            <p style="font-size: 15px; color: #666; margin-bottom: 25px;">Puedes adquirir tu obsequio en cualquier tienda departamental Liverpool del país o ingresando directamente a nuestra lista digital en línea.</p>
+                            <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/52012979" target="_blank" rel="noopener noreferrer" class="theme-btn" style="padding: 13px 32px; font-size: 14px;">
+                                <i class="fa fa-external-link"></i> Ir a Mesa de Regalos Liverpool
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Mesa de Regalos Section -->
+
+        <!-- start Libro de Firmas / Deseos para los Novios (WhatsApp Gratuito a Stephania y Yilmar) -->
+        <section class="section-padding" id="firmas">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center mb-4">
+                        <div class="wpo-section-title">
+                            <h4 class="poort-text poort-in-right">Libro de Firmas</h4>
+                            <h2 class="poort-text poort-in-right">Deseos para los Novios</h2>
+                        </div>
+                        <p style="color: #666; font-size: 16px;">Déjanos tus bendiciones y felicitaciones. Los mensajes se envían de manera directa y gratuita por WhatsApp a los novios.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div style="background: #ffffff; padding: 40px 35px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #eee;">
+                            <form id="wishes-form">
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <label for="wishes-name" style="font-size: 13px; font-weight: 600; color: #333; margin-bottom: 5px;">Tu nombre completo:</label>
+                                        <input type="text" class="form-control" id="wishes-name" placeholder="Ej: Familia Manrique / Stephania" required>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label for="wishes-message" style="font-size: 13px; font-weight: 600; color: #333; margin-bottom: 5px;">Mensaje / Felicitaciones para Stephania y Yilmar:</label>
+                                        <textarea class="form-control" id="wishes-message" rows="4" placeholder="Escribe aquí tu mensaje, bendiciones y buenos deseos..." required></textarea>
+                                    </div>
+
+                                    <!-- Botón de Envío Automático a Ambos Novios por WhatsApp -->
+                                    <div class="col-12 text-center mt-2">
+                                        <button type="submit" class="btn-whatsapp" id="btn-send-wishes" style="padding: 14px 35px; font-size: 15px;">
+                                            <i class="fa fa-whatsapp"></i> Enviar Deseos a los Novios por WhatsApp
+                                        </button>
+                                        <p class="text-muted mt-3 mb-0" style="font-size: 13px;">
+                                            <i class="ti-info-alt"></i> Tu mensaje se abrirá automáticamente en WhatsApp para enviarse a Stephania (+52 477 592 8004) y a Yilmar (+52 477 244 3204).
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="wishes-success" style="display:none; color: #2e6930; font-weight: 600; margin-top: 20px;" class="text-center">
+                                    <p class="mb-2"><i class="fa fa-check-circle"></i> ¡Muchas gracias por tus hermosos deseos y bendiciones!</p>
+                                    <p class="text-muted" style="font-size: 13px; font-weight: normal;">
+                                        Si alguna conversación no se abrió automáticamente, pulsa aquí para enviarla:<br>
+                                        <a href="#" id="link-stephania-direct" target="_blank" class="btn btn-sm btn-outline-success mx-1 mt-2" style="border-radius: 20px; font-size: 12px; padding: 6px 14px;"><i class="fa fa-whatsapp"></i> WhatsApp Stephania</a>
+                                        <a href="#" id="link-yilmar-direct" target="_blank" class="btn btn-sm btn-outline-success mx-1 mt-2" style="border-radius: 20px; font-size: 12px; padding: 6px 14px;"><i class="fa fa-whatsapp"></i> WhatsApp Yilmar</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Libro de Firmas -->
+
+        <!-- start of wpo-site-footer-section (Oculto según requerimiento) -->
+        <footer class="wpo-site-footer-s2" style="display: none;">
+            <div class="wpo-upper-footer">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center text-center">
+                        <div class="col col-xl-8 col-lg-10 col-12">
+                            <div class="widget about-widget">
+                                <div class="logo widget-title">
+                                    <a class="navbar-brand-text" href="index.html" style="font-size: 36px;">
+                                        Stephania <span>&amp;</span> Yilmar
+                                    </a>
+                                </div>
+                                <p style="font-size: 16px; margin-top: 12px; color: #666;">
+                                    "El amor no se mira con los ojos, sino con el alma."<br>
+                                    ¡Gracias por acompañarnos a escribir el capítulo más hermoso de nuestras vidas!
+                                </p>
+                                <div style="margin-top: 18px; color: #515A44; font-weight: 600; font-size: 15px; letter-spacing: 1px;">
+                                    Sábado, 15 de Mayo de 2027 • Cancún / Playa del Carmen
+                                </div>
+                                <div style="margin-top: 10px; font-size: 14px; color: #888;">
+                                    Capilla Nuestra Señora de las Nieves (4:00 PM) • Family Selection Deck (7:00 PM)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end container -->
+            </div>
+            <div class="wpo-lower-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-xs-12 text-center">
+                            <p class="copyright">
+                                &copy; 2027 <strong>Stephania Manrique Sánchez &amp; Yilmar Esaú Chávez Guerrero</strong>. Todos los derechos reservados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of wpo-site-footer-section -->
+
+        <!-- Reproductor de Música de Fondo (Cristian Castro - Azul Original) con autoplay, loop y botones ocultos -->
+        <audio id="bg-audio" preload="auto" loop playsinline>
+            <source src="assets/audio/cristian-castro-azul.mp3" type="audio/mpeg">
+            <source src="assets/audio/cristian-castro-azul-original.m4a" type="audio/mp4">
+        </audio>
+
+    </div>
+    <!-- end of page-wrapper -->
+
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <script src="assets/js/3d-swiper.js"></script>
+    <script src="assets/js/gsap-active.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

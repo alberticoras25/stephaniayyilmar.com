@@ -1,0 +1,7 @@
+.DS_Store
+.env
+nbproject/
+.obsidian/workspace*
+.claude/
+.agents/
+.opencode/
